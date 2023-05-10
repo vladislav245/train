@@ -6,6 +6,10 @@
 int main()
 {
     std::cout << "Hello World!\n";
+    std::cout << "Iglad to see you!\n";
+    std::cout << "MY name is Vladislav!\n";
+    std::cout << "Whats`s yor name?\n";
+    std::cout << "Hmmmmm?\n";
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
