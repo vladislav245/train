@@ -10,6 +10,29 @@ int main()
     std::cout << "MY name is Vladislav!\n";
     std::cout << "Whats`s yor name?\n";
     std::cout << "Hmmmmm?\n";
+
+    std::cout << "Hello World!\n";
+    std::cout << "Iglad to see you!\n";
+    std::cout << "MY name is Vladislav!\n";
+    std::cout << "Whats`s yor name?\n";
+    std::cout << "Hmmmmm?\n";
+
+    std::cout << "Hello World!\n";
+    std::cout << "Iglad to see you!\n";
+    std::cout << "MY name is Vladislav!\n";
+    std::cout << "Whats`s yor name?\n";
+    std::cout << "Hmmmmm?\n";
+
+    std::cout << "Hello World!\n";
+    std::cout << "Iglad to see you!\n";
+    std::cout << "MY name is Vladislav!\n";
+    std::cout << "Whats`s yor name?\n";
+    std::cout << "Hmmmmm?\n";
+
+    int a = 12;
+    int b = 8;
+
+    return 0;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
