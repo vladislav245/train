@@ -25,6 +25,24 @@ int main()
         cout << "it`s problem" << endl;
     }
 
+    try {
+        sqrt(pow(x, y));
+        sqrt(pow(y, x));
+        pow(sin(x), cos(x));
+        pow(sin(y), cos(y));
+        pow(sin(x), cos(y));
+        pow(sin(y), cos(x));
+        pow(sin(x), sin(x));
+        pow(cos(x), cos(x));
+        pow(sin(y), sin(y));
+        pow(cos(y), cos(y));
+    }
+    catch (...) {
+        cout << "it`s problem" << endl;
+    }
+
+
+
     return 0;
 }
 
