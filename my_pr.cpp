@@ -4,6 +4,21 @@
 #include <iostream>
 using namespace std;
 
+
+class Say {
+
+    string words;
+
+public:
+
+    Say(string& words) : words(words) { };
+
+    void to_say() {
+        cout << "i want to say you what ..." << endl;
+    }
+};
+
+
 int main()
 {
     try {
