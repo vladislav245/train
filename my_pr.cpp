@@ -2,40 +2,24 @@
 //
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
 {
+
+    cout << "calcutation" << endl;
+
+    double x, y;
+
+    cout << "write x and y" << endl;
+    cin >> x;
+    cin >> y;
+
     try {
-
-        cout << "ITS WAS 2 way" << endl;
-
-        std::cout << "Hello World!\n";
-        std::cout << "Iglad to see you!\n";
-        std::cout << "MY name is Vladislav!\n";
-        std::cout << "Whats`s yor name?\n";
-        std::cout << "Hmmmmm?\n";
-
-        std::cout << "Hello World!\n";
-        std::cout << "Iglad to see you!\n";
-        std::cout << "MY name is Vladislav!\n";
-        std::cout << "Whats`s yor name?\n";
-        std::cout << "Hmmmmm?\n";
-
-        std::cout << "Hello World!\n";
-        std::cout << "Iglad to see you!\n";
-        std::cout << "MY name is Vladislav!\n";
-        std::cout << "Whats`s yor name?\n";
-        std::cout << "Hmmmmm?\n";
-
-        std::cout << "Hello World!\n";
-        std::cout << "Iglad to see you!\n";
-        std::cout << "MY name is Vladislav!\n";
-        std::cout << "Whats`s yor name?\n";
-        std::cout << "Hmmmmm?\n";
-
-        int a = 12;
-        int b = 8;
+        pow(x, y);
+        sqrt(x);
+        sqrt(y);
     }
     catch (...) {
         cout << "it`s problem" << endl;
