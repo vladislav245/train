@@ -2,35 +2,44 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
-    std::cout << "Iglad to see you!\n";
-    std::cout << "MY name is Vladislav!\n";
-    std::cout << "Whats`s yor name?\n";
-    std::cout << "Hmmmmm?\n";
+    try {
 
-    std::cout << "Hello World!\n";
-    std::cout << "Iglad to see you!\n";
-    std::cout << "MY name is Vladislav!\n";
-    std::cout << "Whats`s yor name?\n";
-    std::cout << "Hmmmmm?\n";
+        cout << "ITS WAS 2 way" << endl;
 
-    std::cout << "Hello World!\n";
-    std::cout << "Iglad to see you!\n";
-    std::cout << "MY name is Vladislav!\n";
-    std::cout << "Whats`s yor name?\n";
-    std::cout << "Hmmmmm?\n";
+        std::cout << "Hello World!\n";
+        std::cout << "Iglad to see you!\n";
+        std::cout << "MY name is Vladislav!\n";
+        std::cout << "Whats`s yor name?\n";
+        std::cout << "Hmmmmm?\n";
 
-    std::cout << "Hello World!\n";
-    std::cout << "Iglad to see you!\n";
-    std::cout << "MY name is Vladislav!\n";
-    std::cout << "Whats`s yor name?\n";
-    std::cout << "Hmmmmm?\n";
+        std::cout << "Hello World!\n";
+        std::cout << "Iglad to see you!\n";
+        std::cout << "MY name is Vladislav!\n";
+        std::cout << "Whats`s yor name?\n";
+        std::cout << "Hmmmmm?\n";
 
-    int a = 12;
-    int b = 8;
+        std::cout << "Hello World!\n";
+        std::cout << "Iglad to see you!\n";
+        std::cout << "MY name is Vladislav!\n";
+        std::cout << "Whats`s yor name?\n";
+        std::cout << "Hmmmmm?\n";
+
+        std::cout << "Hello World!\n";
+        std::cout << "Iglad to see you!\n";
+        std::cout << "MY name is Vladislav!\n";
+        std::cout << "Whats`s yor name?\n";
+        std::cout << "Hmmmmm?\n";
+
+        int a = 12;
+        int b = 8;
+    }
+    catch (...) {
+        cout << "it`s problem" << endl;
+    }
 
     return 0;
 }
