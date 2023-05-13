@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <cmath>
+#include <locale>
 using namespace std;
 
 
@@ -55,11 +56,26 @@ public:
 
 int main()
 {
-    Man arr[3];
-    
-    arr[0] = -1;
-    arr[1] = 9;
-    arr[2] = 6;
+    setlocale(LC_ALL, "RUS");
+
+    int size;
+    cout << "Введите кол-во объектов" << endl;
+    cin >> size;
+
+    Man *arr = new Man[size];
+
+    for (int i = 0; i < size; i++) {
+        int data = 0;
+        cout << "Введите данные: ";
+        cin >> data;
+        arr[i] = data;
+    }
+
+    for (int i = 0; i < size; i++) {
+        arr[i].get_info();
+    }
+
+
 
     return 0;
 }
