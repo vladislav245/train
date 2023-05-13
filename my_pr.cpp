@@ -5,20 +5,12 @@
 #include <cmath>
 using namespace std;
 
+class Error {
 
-class Say {
+    static void error() {
 
-    string words;
-
-public:
-
-    Say(string& words) : words(words) { };
-
-    void to_say() {
-        cout << "i want to say you what ..." << endl;
     }
 };
-
 
 int main()
 {
