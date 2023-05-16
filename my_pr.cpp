@@ -7,19 +7,6 @@
 using namespace std;
 
 
-class Say {
-
-    string words;
-
-public:
-
-    Say(string& words) : words(words) { };
-
-    void to_say() {
-        cout << "i want to say you what ..." << endl;
-    }
-};
-
 class Man {
 
 
@@ -57,6 +44,19 @@ public:
 int main()
 {
     setlocale(LC_ALL, "RUS");
+
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
 
     int size;
     cout << "Введите кол-во объектов" << endl;
