@@ -50,6 +50,19 @@ int main()
 {
     setlocale(LC_ALL, "RUS");
 
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+    cout << "IT NEW branch github #1" << endl;
+
     int size;
     cout << "Введите кол-во объектов" << endl;
     cin >> size;
