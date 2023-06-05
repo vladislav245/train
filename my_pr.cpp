@@ -190,5 +190,7 @@ int main()
         cout << "it`s problem" << endl;
     }
 
+    cout << "master №2" << endl;
+
     return 0;
 }
