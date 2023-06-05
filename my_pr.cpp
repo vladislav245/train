@@ -190,7 +190,7 @@ int main()
         cout << "it`s problem" << endl;
     }
 
-    cout << "master №2" << endl;
+    cout << "super new branch №1" << endl;
 
     return 0;
 }
